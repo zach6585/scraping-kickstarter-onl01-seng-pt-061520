@@ -13,6 +13,7 @@ def create_project_hash
   #description: project.css("p.bbcard_blub").text 
   #location: project.css("span.location-name").text
   #project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
+  projects 
 end
 
 create_project_hash
